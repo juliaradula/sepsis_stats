@@ -236,7 +236,7 @@ PL_Age
 PR_BD2
 PL_SK
 
-correlacoes = grid.arrange(PRG_Age, SK_M11, TS_PL,PL_Age,PL_SK,PL_SK, ncol=3)
+correlacoes = grid.arrange(PRG_Age, SK_M11, TS_PL,PL_Age,PL_SK,PR_BD2, ncol=3)
 
 
 
@@ -245,5 +245,5 @@ todos = grid.arrange(PRG,PL,PR,SK,TS,M11,BD2,Age, ncol=4)
 barplot1
 todos2 = grid.arrange(PRG2,PL2,PR2,SK2,TS2,M112,BD22,Age2, ncol=4)
 corr_map
-correlacoes = grid.arrange(PRG_Age, SK_M11, TS_PL,PL_Age,PL_SK,PL_SK, ncol=3)
+correlacoes = grid.arrange(PRG_Age, SK_M11, TS_PL,PL_Age,PL_SK,PR_BD2, ncol=3)
 dev.off()
