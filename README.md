@@ -1,2 +1,2 @@
 # sepsis_stats
-Project on the academic course os Stats from UFMG
+Project for the academic course in Statistics at UFMG
